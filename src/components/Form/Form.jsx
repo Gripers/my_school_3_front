@@ -17,7 +17,7 @@ const Form = () => {
 <b>Phone number:</b> ${event.target[1].value}
     `;
 
-    if (!event.target[0].value && !event.target[1].value)
+    if (!event.target[0].value, !event.target[1].value)
       toast.error("Hamma ma'lumotlarni to'ldiring!");
     else
       submitForm(html)
